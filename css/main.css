@@ -1,6 +1,4 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -81,4 +79,80 @@ label {
 
 legend {
   display: block;
+}
+
+body, html {
+  font-family: "DM Sans", sans-serif;
+  background-color: #191919;
+  color: #fff;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 43px 0;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.nav-list__el {
+  font-size: 17px;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+}
+.nav-list__el:hover {
+  color: #118DA8;
+}
+
+.level {
+  margin-top: 40px;
+}
+.level-block {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.left-side {
+  position: relative;
+}
+
+.left-side__img2 {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+
+.right-text__h1 h1 {
+  font-size: 70px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-text__h1 {
+  margin-bottom: 85px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.social-line {
+  display: flex;
+  gap: 17px;
 }/*# sourceMappingURL=main.css.map */

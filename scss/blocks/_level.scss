@@ -1,0 +1,48 @@
+.level {
+    margin-top: 40px;
+
+    &-block {
+        display: flex;
+        gap: 60px;
+        align-items: center;
+    }
+}
+
+.left-side{
+    position: relative;   
+}
+
+.left-side__img2 {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+
+.right-text__h1 {
+    h1 {
+        font-size: 70px;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+    }
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-text__h1 {
+    margin-bottom: 85px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &-line {
+        display: flex;
+        gap: 17px;
+    }
+}
+

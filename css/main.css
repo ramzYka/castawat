@@ -155,4 +155,82 @@ body, html {
 .social-line {
   display: flex;
   gap: 17px;
+}
+
+.episodes {
+  margin-top: 100px;
+}
+.episodes-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.episodes-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.episode-text__h2 {
+  font-size: 64px;
+  line-height: 0.79;
+  letter-spacing: 0.12em;
+}
+
+.episode-button__btn {
+  background-color: #118DA8;
+  color: #fff;
+  padding: 12px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.episode-button__btn:hover {
+  background-color: #0f778f;
+}
+
+.card {
+  display: flex;
+  gap: 55px;
+  padding: 40px;
+  background-color: #000000;
+  border-radius: 32px;
+}
+.card-right {
+  display: flex;
+  flex-direction: column;
+}
+.card-right__category {
+  font-size: 18px;
+  padding: 0 16px;
+  background-color: #191919;
+  border-radius: 5px;
+  max-width: 8.7%;
+  margin-bottom: 48px;
+}
+.card-right__category_b {
+  max-width: 20%;
+}
+.card-right__episode {
+  font-size: 17px;
+  color: #118DA8;
+}
+.card-text {
+  margin-top: 17px;
+}
+.card-text__top {
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 0.12em;
+  margin-bottom: 28px;
+}
+.card-text__bot {
+  font-size: 20px;
+  color: #807d7d;
+}
+.card-button {
+  margin-top: 18px;
 }/*# sourceMappingURL=main.css.map */

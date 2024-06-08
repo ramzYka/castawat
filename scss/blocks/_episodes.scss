@@ -1,0 +1,99 @@
+.episodes {
+
+    margin-top: 100px;
+
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    &-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+}
+
+.episode-text {
+    &__h2 {
+        font-size: 64px;
+        line-height: 0.79;
+        letter-spacing: 0.12em;
+    }
+}
+
+.episode-button {
+
+    &__btn {
+        background-color: $btn-color;
+        color: #fff;
+        padding: 12px 15px;
+        transition: all 0.3s ease-in-out;
+        font-size: 17px;
+        border-radius: 5px;
+    }
+
+    &__btn:hover {
+        background-color: $btn-color-hover;
+    }
+}
+
+
+.card {
+    display: flex;
+    gap: 55px;
+    padding: 40px;
+    background-color: $bg-cards;
+    border-radius: 32px;
+
+
+
+    &-right {
+        display: flex;
+        flex-direction: column;
+
+        &__category {
+            font-size: 18px;
+            padding: 0 16px;
+            background-color: #191919;
+            border-radius: 5px;
+            max-width: 8.70%;
+            margin-bottom: 48px;
+
+            &_b {
+                max-width: 20%;
+            }
+        }
+
+
+        &__episode {
+            font-size: 17px;
+            color: $btn-color;
+        }
+    }
+
+    &-text {
+        margin-top: 17px;
+
+        &__top {
+            font-size: 60px;
+            line-height: 1.1;
+            letter-spacing: 0.12em;
+            margin-bottom: 28px;
+        }
+
+        &__bot {
+            font-size: 20px;
+            color: #807d7d;
+        }
+    }
+
+    &-button {
+        margin-top: 18px;
+    }
+}

@@ -1,0 +1,45 @@
+.subscribe {
+    margin-top: 170px;
+
+    &-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: $bg-cards;
+        padding: 60px;
+        position: relative;
+    }
+
+    &-left {
+        &__h2 {
+            font-size: 72px;
+        }
+    }
+
+    &-right {
+       
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-top: 40px;
+        }
+
+        &__input {
+            width: 500px;
+            height: 82px;
+            background-color: #191919;
+            border-radius: 5px;
+            border: none;
+            padding: 0 30px;
+            font-size: 24px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.second-palki {
+    position: absolute;
+    bottom: -30px;
+    left: -39px;
+}

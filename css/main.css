@@ -271,4 +271,70 @@ body, html {
 .jacob-left__about {
   font-size: 22px;
   color: #807d7d;
+}
+
+.subscribe {
+  margin-top: 170px;
+}
+.subscribe-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000000;
+  padding: 60px;
+  position: relative;
+}
+.subscribe-left__h2 {
+  font-size: 72px;
+}
+.subscribe-right__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+}
+.subscribe-right__input {
+  width: 500px;
+  height: 82px;
+  background-color: #191919;
+  border-radius: 5px;
+  border: none;
+  padding: 0 30px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.second-palki {
+  position: absolute;
+  bottom: -30px;
+  left: -39px;
+}
+
+.reviews {
+  margin-top: 170px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.reviews-block {
+  display: flex;
+  flex-direction: row;
+}
+.reviews-card {
+  width: 423px;
+  height: 321px;
+  background-color: #000000;
+  padding: 50px;
+  border-radius: 32px;
+}
+.reviews-card__review {
+  font-size: 36px;
+  margin-top: 25px;
+}
+.reviews-card__name {
+  margin-top: 25px;
+  font-size: 24px;
+  color: #a5a4a4;
 }/*# sourceMappingURL=main.css.map */

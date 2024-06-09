@@ -1,0 +1,33 @@
+.reviews {
+    margin-top: 170px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    &-block {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-card {
+        width: 423px;
+        height: 321px;
+        background-color: $bg-cards;
+        padding: 50px;
+        border-radius: 32px;
+
+        &__review {
+            font-size: 36px;
+            margin-top: 25px;
+        }
+
+        &__name {
+            margin-top: 25px;
+            font-size: 24px;
+            color: #a5a4a4;
+        }
+
+    }
+}

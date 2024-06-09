@@ -233,4 +233,42 @@ body, html {
 }
 .card-button {
   margin-top: 18px;
+}
+
+.jacob {
+  margin-top: 170px;
+}
+.jacob-block {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
+.jacob-left__arrow {
+  padding: 35px;
+  background-color: #118DA8;
+  width: 17%;
+  border-radius: 120px;
+}
+.jacob-left__name {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.jacob-left__about {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.jacob-name {
+  font-size: 65px;
+  line-height: 1;
+  letter-spacing: 0.12em;
+}
+
+.jacob-left__about {
+  font-size: 22px;
+  color: #807d7d;
 }/*# sourceMappingURL=main.css.map */

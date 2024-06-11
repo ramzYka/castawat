@@ -337,4 +337,277 @@ body, html {
   margin-top: 25px;
   font-size: 24px;
   color: #a5a4a4;
+}
+
+.footer {
+  margin-top: 170px;
+}
+.footer-line {
+  display: flex;
+  gap: 240px;
+  padding: 70px;
+}
+.footer-right {
+  display: flex;
+  gap: 80px;
+}
+.footer-right__elements {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #FFFFFF;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-elements__el {
+  color: #FFFFFF;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-elements__el:hover {
+  color: #118DA8;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 625px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .level {
+    margin-bottom: 60px;
+  }
+  .card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-list {
+    gap: 10px;
+  }
+  .right-text__h1 h1 {
+    font-size: 40px;
+  }
+  .episode-text__h2 {
+    font-size: 56px;
+  }
+  .episode-button__btn {
+    font-size: 14px;
+  }
+  .card-text__top {
+    font-size: 40px;
+  }
+  .card-text__bot {
+    font-size: 16px;
+  }
+  .card-right__category_b {
+    max-width: 52%;
+  }
+  .jacob {
+    margin-bottom: 60px;
+  }
+  .jacob-left__arrow {
+    display: none;
+  }
+  .jacob-name {
+    font-size: 55px;
+  }
+  .about-first {
+    font-size: 14px;
+  }
+  .about-second {
+    font-size: 14px;
+  }
+  .subscribe {
+    margin-bottom: 60px;
+  }
+  .subscribe-left__h2 {
+    font-size: 40px;
+  }
+  .subscribe-block {
+    gap: 30px;
+  }
+  .subscribe-right__input {
+    width: 300px;
+  }
+  .footer-line {
+    gap: 30px;
+  }
+  .footer-right__elements {
+    font-size: 7px;
+  }
+  .footer-line {
+    flex-direction: column;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-right__social {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .level {
+    margin-bottom: 60px;
+  }
+  .card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-list {
+    gap: 10px;
+  }
+  .right-text__h1 h1 {
+    font-size: 40px;
+  }
+  .episode-text__h2 {
+    font-size: 56px;
+  }
+  .episode-button__btn {
+    font-size: 14px;
+  }
+  .card-text__top {
+    font-size: 40px;
+  }
+  .card-text__bot {
+    font-size: 16px;
+  }
+  .card-right__category_b {
+    max-width: 52%;
+  }
+  .jacob {
+    margin-bottom: 60px;
+  }
+  .jacob-left__arrow {
+    display: none;
+  }
+  .jacob-name {
+    font-size: 55px;
+  }
+  .about-first {
+    font-size: 14px;
+  }
+  .about-second {
+    font-size: 14px;
+  }
+  .subscribe {
+    margin-bottom: 60px;
+  }
+  .subscribe-left__h2 {
+    font-size: 40px;
+  }
+  .subscribe-block {
+    gap: 30px;
+  }
+  .subscribe-right__input {
+    width: 300px;
+  }
+  .footer-line {
+    gap: 30px;
+  }
+  .footer-right__elements {
+    font-size: 7px;
+  }
+  .footer-line {
+    flex-direction: column;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-right__social {
+    flex-direction: column;
+  }
+  .jacob-block {
+    flex-direction: column;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .level-block {
+    flex-direction: column;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+  .episodes-top {
+    flex-direction: column;
+  }
+  .subscribe-block {
+    flex-direction: column;
+  }
+  .reviews-card {
+    width: 300px;
+  }
+  .reviews-card__review {
+    font-size: 24px;
+  }
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .footer-right__elements {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 98%;
+    padding: 0 15px;
+  }
+  .navigation {
+    gap: 20px;
+  }
+  .episodes-top {
+    gap: 40px;
+    text-align: center;
+  }
+  .jacob-name {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 95%;
+    padding: 0 15px;
+  }
+  .card {
+    padding: 15px;
+  }
+  .card-right__category {
+    max-width: 28.7%;
+  }
+  .card-text__top {
+    font-size: 31px;
+  }
+  .card-text__bot {
+    font-size: 12px;
+  }
+  .card-right__category_b {
+    max-width: 57%;
+  }
+  .subscribe-right__input {
+    width: 237px;
+    height: 60px;
+  }
+  .reviews-card__review {
+    font-size: 20px;
+  }
+  .footer-left {
+    gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

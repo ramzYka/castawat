@@ -1,0 +1,34 @@
+.footer {
+    margin-top: 170px;
+
+    &-line {
+        display: flex;
+        gap: 240px;
+        padding: 70px;
+    }
+
+    &-right {
+        display: flex;
+        gap: 80px;
+        
+
+        &__elements {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            color: #FFFFFF;
+            font-size: 17px;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    &-elements__el {
+        color: #FFFFFF;
+        font-size: 17px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            color: $btn-color;
+        }
+    }
+}
